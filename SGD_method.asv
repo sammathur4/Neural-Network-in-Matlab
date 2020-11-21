@@ -1,0 +1,17 @@
+function Weight = SGD_method(Weight, input, correct_output)
+alpha = 0.9;
+N = 4;
+for k 1:4
+    transposed_Input = input(k,:)';
+    d = correct_output;
+weighted_sum = Weight*transposed_input;
+output = sigmoid(weighted_sum);
+
+error = d - output;
+delta = output*(1-output)*error;
+
+dWeight = alpha*delta*transposed_Input;
+
+Weight(1) = Weight(1) + dWeight(1);
+Weight(2) = Weight(2) + dWeight(2);
+Weight(1) = Weight() + dWeight(3);
