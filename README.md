@@ -2,7 +2,7 @@
 In order to learn deep learning, it is better to start from the beginning. And single layer neural network is the best starting point.
 A neural network is a network or circuit of neurons, or in a modern sense, an artificial neural network, composed of artificial neurons or nodes. Thus a neural network is either a biological neural network, made up of real biological neurons, or an artificial neural network, for solving artificial intelligence (AI) problems. The connections of the biological neuron are modeled as weights. A positive weight reflects an excitatory connection, while negative values mean inhibitory connections. All inputs are modified by a weight and summed. This activity is referred to as a linear combination. Finally, an activation function controls the amplitude of the output. For example, an acceptable range of output is usually between 0 and 1, or it could be −1 and 1. These artificial networks may be used for predictive modeling, adaptive control and applications where they can be trained via a dataset. Self-learning resulting from experience can occur within networks, which can derive conclusions from a complex and seemingly unrelated set of information.
 
-
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 
 Neural networks are especially well suited to perform pattern recognition to identify and classify objects or signals in speech, vision, and control systems. They can also be used for performing time-series prediction and modeling.
 
@@ -24,3 +24,32 @@ A neural network combines several processing layers, using simple elements opera
 Supervised Learning
 
 Supervised neural networks are trained to produce desired outputs in response to sample inputs, making them particularly well suited for modeling and controlling dynamic systems, classifying noisy data, and predicting future events. Deep Learning Toolbox™ includes four types of supervised networks: feedforward, radial basis, dynamic, and learning vector quantization.
+
+
+The output obtained from the network:
+output =
+
+    0.0093
+
+
+output =
+
+    0.0417
+
+
+output =
+
+    0.9895
+
+
+output =
+
+    0.9977
+    
+The correct output:
+0
+0
+1
+1
+
+Hence, the output from neural network is almost equal to the correct output, hence our network is now trained.
